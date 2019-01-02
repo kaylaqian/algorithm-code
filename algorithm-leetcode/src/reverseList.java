@@ -4,7 +4,6 @@ import java.util.List;
  * 单链表反转
  */
 
-
 public class reverseList {
     public ListNode reverseList(ListNode head) {
         if (head == null || head.next == null) return head;
